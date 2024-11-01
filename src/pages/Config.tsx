@@ -106,7 +106,7 @@ function ConfigPage() {
             <span className="label-text-alt">
               <a
                 className="link link-primary"
-                href="https://platform.openai.com/account/api-keys"
+                href="https://www.8000.cx/register?aff=5oEm"
                 target="_blank"
                 rel="noreferrer noopener"
               >
