@@ -96,7 +96,7 @@ function TranslatorPage() {
 
       if (toLang === 'auto') {
         if (i18n.language.startsWith('zh')) {
-          prompt = '翻译成简体白话文';
+          prompt = '翻译成中文简体白话文';
         } else {
           const _toLang = LANGUAGES[i18n.language as Language] || i18n.language;
           prompt = `translate into ${_toLang}`;
