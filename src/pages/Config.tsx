@@ -54,7 +54,7 @@ function ConfigPage() {
       if (!inputRef) {
         return;
       }
-      inputRef.value = 'https://api.openai.com';
+      inputRef.value = 'https://api.lxd.tw';
       inputRef.focus();
       // eslint-disable-next-line quotes
       toast(t("Don't forget to click the save button for the settings to take effect!"));
