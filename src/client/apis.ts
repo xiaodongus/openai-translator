@@ -1,5 +1,5 @@
 export default {
-  baseUrl: 'https://api.openai.com',
+  baseUrl: 'https://api.lxd.tw',
   endpoints: {
     v1: {
       completions: {
