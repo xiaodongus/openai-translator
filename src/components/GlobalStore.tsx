@@ -27,7 +27,7 @@ type GlobalContextValue = {
 
 const context = createContext<GlobalContextValue>({
   configValues: {
-    openaiApiUrl: 'https://api.openai.com',
+    openaiApiUrl: 'https://api.lxd.tw',
     openaiApiKey: '',
     streamEnabled: true,
     currentModel: 'gpt-4o-mini',
@@ -66,14 +66,14 @@ export function GlobalProvider(props: Props) {
     toLang: 'auto',
   });
   const [configValues, setConfigValues] = useLocalStorage<ConfigValues>('extra-config', {
-    openaiApiUrl: 'https://api.openai.com',
+    openaiApiUrl: 'https://api.lxd.tw',
     openaiApiKey: '',
     streamEnabled: true,
     currentModel: 'gpt-4o-mini',
     temperatureParam: 0.7,
   });
   const {
-    openaiApiUrl = 'https://api.openai.com',
+    openaiApiUrl = 'https://api.lxd.tw',
     openaiApiKey = '',
     streamEnabled = true,
     currentModel = 'gpt-4o-mini',
